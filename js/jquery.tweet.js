@@ -94,7 +94,7 @@
         return n + ' ' + str;
       };
       if(delta < 60) {
-      return 'less than a minute ago';
+      return 'meno di un minuto fa';
       } else if(delta < (60*60)) {
       return 'circa ' + pluralize("minuto", parseInt(delta / 60)) + ' fa';
       } else if(delta < (24*60*60)) {
