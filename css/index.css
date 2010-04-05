@@ -111,3 +111,18 @@ a#tooCool {
     float: left; }
 .tweet .tweet_list .tweet_avatar img, .query .tweet_list .tweet_avatar img {
     vertical-align: middle; }
+.newsContainer{
+ /* background-color: #ccc;*/
+  color: #fff;
+}
+
+.newsContainer p{
+  padding: 15px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.newsTitle{
+  font-style: italic;
+  font-size: 17px;
+}
