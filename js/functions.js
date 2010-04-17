@@ -12,5 +12,7 @@ jQuery(document).ready(function($) {
         auto_join_text_url: "",
         loading_text: "loading tweets..."
     });
-})      
 
+    $('#newsBox').hide();
+    $('#newsBox').slideDown(500);
+});

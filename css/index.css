@@ -125,7 +125,9 @@ a#tooCool {
 }
 
 #newsBox{
-  height:180px;
+  height:190px;
+  padding: 5px 0;
+  margin:  20px ;
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
   background: #e29343;
@@ -148,5 +150,5 @@ a#tooCool {
 
 .oldNewsContainer {
   padding-left: 15px;
-  font-size: 10px;
+  font-size: 13px;
 }
