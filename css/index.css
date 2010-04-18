@@ -151,4 +151,21 @@ a#tooCool {
 .oldNewsContainer {
   padding-left: 15px;
   font-size: 13px;
+  margin-bottom: 20px;
+}
+
+.slideshareImg{
+  height: 49;
+  width:53px;
+  border: 1px solid #fff;
+}
+
+.slideshareLink{
+  float:right;
+  margin-right: 50px;
+}
+
+.talkTitle{
+  font-style: italic;
+  font-size: 15px;
 }
