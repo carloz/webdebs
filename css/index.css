@@ -1,10 +1,9 @@
+* { border: 0; margin: 0; }
 body {
   background-color: teal;
   color: #ff0;
   font-size: 11pt;
   font-family: arial, sans-serif;
-  margin: 0;
-  padding: 0;
   text-align: center;
 }
 
@@ -115,7 +114,7 @@ a#tooCool {
   color: #0C717A;
 }
 
-.tweet .tweet_list .tweet_even {   
+.tweet .tweet_list .tweet_even {
   background-color: #91E5E7;
 }
 
@@ -129,7 +128,6 @@ a#tooCool {
 }
 
 #newsBox{
-  height:350px;
   padding: 5px 0;
   margin:  20px ;
   -moz-border-radius: 15px;
@@ -139,23 +137,25 @@ a#tooCool {
   -webkit-box-shadow: 0px 0px 15px #000;
   color: #fff;
   font-weight: bold;
-
 }
 
 .newsContainer {
   padding: 15px 0 5px 15px;
-  font-size: 15px;
+  font-size: 16 px;
+  margin-bottom: 30px;
 }
 
 .oldNewsContainer {
-  padding-left: 15px;
+  padding-left: 12px;
   font-size: 13px;
-  margin-bottom: 20px;
+  margin: 20px 0;
 }
 
+.oldNewsContainer:after { clear:both; }
+
 .slideshareImg{
-  height: 49;
-  width:53px;
+  height: 49px;
+  width: 53px;
   border: 1px solid #fff;
 }
 
@@ -170,4 +170,8 @@ a#tooCool {
   font-size: 35px;
   margin: 10px auto;
   text-align: center;
+}
+
+.separator{
+    border: 2px dotted #fff;
 }
