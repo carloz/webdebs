@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
         username: "cirpo",
         list: "webdebs",
         avatar_size: 48,
-        count: 30,
+        count: 10,
         auto_join_text_default: "",
         auto_join_text_ed: "",
         auto_join_text_ing: "",

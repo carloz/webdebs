@@ -27,6 +27,10 @@ body .container a {
   color: #8ADEE2;
 }
 
+p{
+    margin: 0;
+}
+
 .tweetBox {
   -moz-border-radius: 15px;
   -webkit-border-radius: 15px;
@@ -125,7 +129,7 @@ a#tooCool {
 }
 
 #newsBox{
-  height:190px;
+  height:350px;
   padding: 5px 0;
   margin:  20px ;
   -moz-border-radius: 15px;
@@ -141,11 +145,6 @@ a#tooCool {
 .newsContainer {
   padding: 15px 0 5px 15px;
   font-size: 15px;
-}
-
-.newsTitle{
-  font-style: italic;
-  font-size: 17px;
 }
 
 .oldNewsContainer {
@@ -165,7 +164,10 @@ a#tooCool {
   margin-right: 50px;
 }
 
-.talkTitle{
+.newTalkTitle{
+  color: #a70000;
   font-style: italic;
-  font-size: 15px;
+  font-size: 35px;
+  margin: 10px auto;
+  text-align: center;
 }
