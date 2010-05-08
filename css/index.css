@@ -172,6 +172,11 @@ a#tooCool {
   text-align: center;
 }
 
+.newTalkDescription{
+    padding:10px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
 .separator{
     border: 2px dotted #fff;
 }
