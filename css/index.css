@@ -149,6 +149,9 @@ a#tooCool {
   padding-left: 12px;
   font-size: 13px;
   margin: 20px 0;
+  font-weight: normal;
+  color: #000;
+  font-weight: bold;
 }
 
 .oldNewsContainer:after { clear:both; }
@@ -179,4 +182,12 @@ a#tooCool {
 }
 .separator{
     border: 2px dotted #fff;
+}
+
+.talkTitle{
+    
+    font-size: 14px;
+    font-style: italic;
+    color: #fff;
+    
 }
