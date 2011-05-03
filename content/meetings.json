@@ -1,0 +1,36 @@
+{
+  "meetings": [
+    
+     {
+        "title"  : "TBA",
+        "slide"   : "",
+        "description" : "",
+        "image" : "",
+        "date"  :  "03/06/2011",
+        "speaker" : ""
+        
+      },
+      
+      {
+        "title"  : "Symfony2 and Ror3 friends for an hour",
+        "slide"   : "",
+        "description" : "",
+        "image" : "pic.png",
+        "date"  :  "06/05/2011",
+        "speaker" : ["@cirpo", "@albertobarilla", "@sandropaganotti"]
+        
+      },
+      
+      {
+        "title"  : "Will Kanban save your life?",
+        "slide"   : "http://www.slideshare.net/cbeschi/will-kanban-save-your-life",
+        "description" : "",
+        "image" : "pic.png",
+        "date"  :  "10/04/2011",
+        "speaker" : ["@carloz"]
+        
+      }
+      
+]
+
+}

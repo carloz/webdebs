@@ -1,0 +1,38 @@
+{
+  "events": [
+    
+     {
+        "name"  : "NodejsConf",
+        "www"   : "http://nodejsconf.it",
+        "image" : "pic.png",
+        "date"  :  "fine settembre"
+        
+      },
+      
+      {
+        "name"  : "Pane Web e Salame",
+        "www"   : "http://panewebesalame.com/",
+        "image" : "pic.png",
+        "date"  :  "giugno"
+        
+      },
+      
+      {
+        "name"  : "NosqlDay",
+        "www"   : "http://nosqlday.it",
+        "image" : "pic.png",
+        "date"  :  "25/04/2011"
+        
+      },
+      
+      {
+        "name"  : "Pane Web e Salame",
+        "www"   : "http://panewebesalame.com/",
+        "image" : "pic.png",
+        "date"  :  "giugno"
+        
+      }
+
+]
+
+}
