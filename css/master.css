@@ -1,0 +1,40 @@
+
+/* [FONTS] */
+@import url(http://fonts.googleapis.com/css?family=Cabin+Sketch:bold);
+@import url(http://fonts.googleapis.com/css?family=Special+Elite);
+
+/* [] */
+body { background:#eee; margin:0; font-size:1em; }
+
+h1 { font-family: 'Cabin Sketch', arial, serif; font-size:3.5em; color:#666; }
+h2 { font-family: 'Special Elite', arial, serif; font-size:1.4em; margin:0; }
+*[lang=en] { display:none; }
+
+body>header { display:block; }
+footer { display:block; }
+article { color:#444; font-size:.9em; }
+
+#label { box-shadow:0px 3px 5px #ccc; -moz-transform:rotate(-2deg); }
+
+/*#getintouch { }*/
+/*  #getintouch a { border-radius:.5em; background:#444; padding:.5em 2em; margin:0 .5em; color:#fff; text-decoration:none; }*/
+
+.fixed { width:900px; margin:0 auto; padding:2em; }
+.whited { background:#fff; }
+.spaced { margin-top:1em; }
+.centered { text-align:center; }
+
+.grid { border:1px solid #aaa; margin:2em 0; }
+  .grid .trentatre { border-right:1px solid #aaa; }
+
+.icon { float:left; margin-right:.8em; }
+.right { float:right; }
+
+.content { overflow:hidden; }
+
+.wrapper { width:101%; overflow:hidden; }
+
+.trentatre { width:33%; float:left; overflow:hidden; }
+
+.event { }
+.meeting p { padding:0 .5em; }

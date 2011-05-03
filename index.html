@@ -1,31 +1,103 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- [GENERAL] -->
-	<title>WebDeBS</title>
 
-	<!-- [META TAGS] -->
-	<meta charset="utf-8" />
-  
-  <!-- [FILE JS] -->
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-  <script type="text/javascript" src="js/start.js"></script>
-  <!--[if lt IE 9]>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-  
+  	<title>WebDeBS :: Proudly made in Brescia</title>
+
+  	<!-- [META TAGS] -->
+  	<meta charset="utf-8" />
+  	
+    <!-- [CSS] -->
+    <link rel="stylesheet" href="css/master.css" type="text/css" media="screen" charset="utf-8">
+    
+    <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   </head>
+  
   <body>
-    <header></header>
+    <header class="fixed whited centered">
+      <img src="images/logo-webdebs.gif" border="0"/>
+    </header>
+        
+    <!-- [WHO] -->
+    <section id="who" class="fixed whited spaced">
+      <img src="images/follow_us.png" border="0" class="right" />
+      <div class="title">
+        <h1 lang="it">chi siamo</h1>
+        <h1 lang="en">who we are</h1>
+      </div>
+      <div class="content">
+        <p>Un gruppo di persone accomunate dal fatto di nutrire una forte passione per tutto quello che ruota attorno al web (ma non solo) e dall'essere bresciani (<span id="#christmasegg1" title="alcuni si spingono a dire che “essere bresciani è una condizione dell'anima e non anagrafica...”">ma non solo</span>). Ci troviamo periodicamente per <strong>parlare di software</strong> e del suo sviluppo, di framework e <strong>linguaggi di programmazione</strong>, di tecnologie web/mobile e client/server, di comunicazione sui social media: insomma i soliti argomenti da geek (ma non solo di quelli). A volte ci troviamo tutti assieme dietro un proiettore, su cui qualcuno a turno presenta delle slide, altre volte in un locale a chiacchierare amabilmente fino a tarda sera, sorseggiando un <a href="http://www.ilpirlo.com/i-locali-recensiti/">pirlo</a> o bevendo birra.</p>
+  			<p>Niente di commerciale o promozionale, solo degli incontri organizzati mettendo assieme quel po' di tempo, passione e volontà che riusciamo a dedicare a questo progetto strappandolo al nostro lavoro quotidiano. Dalla community <strong>per la community</strong>, tutto qua.</p>
+      </div>
+    </section>
     
-    <div id="events">
-      <h1>eventi</h1>
-    </div>
+    <!-- [EVENTS] -->
+    <section id="events" class="fixed whited spaced">
+      <div class="title">
+        <h1 lang="it">eventi</h1>
+        <h1 lang="en">events</h1>
+      </div>
+      <div class="content">
+        <div class="wrapper data"></div>
+      </div>
+    </section>
+        
+    <!-- [MEETINGS] -->
+    <section id="meetings" class="fixed whited spaced">
+      <div class="title">
+        <h1 lang="it">incontri</h1>
+        <h1 lang="en">meetings</h1>
+      </div>
+      
+      <div class="content">
+        <div class="wrapper">
+          <div class="trentatre">
+            <img src="images/1304458249_starthere.png" border="0" class="icon"/>
+            <header>
+              <h2>DOVE</h2>
+            </header>
+            <article>
+              Parco dell’Acqua
+            </article>
+          </div>
+          <div class="trentatre">
+            <img src="images/1304458340_preferences-calendar-and-tasks.png" border="0" class="icon"/>
+            <header>
+              <h2>QUANDO</h2>
+            </header>
+            <article>
+              Il primo venerdì di ogni mese.<br />
+              Dalle 19e30
+            </article>
+          </div>
+          <div class="trentatre">
+            <img src="images/1304458412_desktop.png" border="0" class="icon"/>
+            <header>
+              <h2>COME</h2>
+            </header>
+            <article>
+              Pirlo, pizza, birra, presentazioni, due ciacole e confronto
+            </article>
+          </div>
+        </div>
+      </div>
+      
+      <div class="content grid">
+        <div class="wrapper data"></div>
+      </div>
+    </section>
+        
+    <footer class="fixed spaced centered">
+      <img src="images/logo-webdebs-etichetta.png" border="0" id="label"/>
+    </footer>
     
-    <div id="meetings">
-      <h1>meetings</h1>
-    </div>
-    
-    <footer></footer>
+    <!-- [FILE JS] -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/start.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    $(document).ready(function() {
+      $('.event:first').addClass('bold');
+    });
+    </script>
   </body>
 </html>
