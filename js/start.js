@@ -30,6 +30,9 @@ $(document).ready(function() {
       $.each(data['meetings'], function(index, value){
         $('#meetings .data').append('<div id="meeting_' + index +'" class="meeting trentatre"><p>' + value.title +'</p><p>' + value.url +'</p> <p>' + value.date + '</p></div>');
       });
+      
+      $('#meetings .data div:even').css('background','#eee');
+      
       debug(data);
     };
 
