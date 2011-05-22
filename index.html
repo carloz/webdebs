@@ -14,13 +14,9 @@
   </head>
   
   <body>
+    <div id="content">
     <header class="fixed whited centered">
-      <img src="images/logo-webdebs.gif" border="0"/>
-    </header>
-        
-    <!-- [WHO] -->
-    <section id="who" class="fixed whited spaced">
-      <img src="images/follow_us.png" border="0" class="right" />
+       <img src="images/follow_us.png" border="0" class="right" />
       <div class="title">
         <h1 lang="it">chi siamo</h1>
         <h1 lang="en">who we are</h1>
@@ -29,6 +25,31 @@
         <p>Un gruppo di persone accomunate dal fatto di nutrire una forte passione per tutto quello che ruota attorno al web (ma non solo) e dall'essere bresciani (<span id="#christmasegg1" title="alcuni si spingono a dire che “essere bresciani è una condizione dell'anima e non anagrafica...”">ma non solo</span>). Ci troviamo periodicamente per <strong>parlare di software</strong> e del suo sviluppo, di framework e <strong>linguaggi di programmazione</strong>, di tecnologie web/mobile e client/server, di comunicazione sui social media: insomma i soliti argomenti da geek (ma non solo di quelli). A volte ci troviamo tutti assieme dietro un proiettore, su cui qualcuno a turno presenta delle slide, altre volte in un locale a chiacchierare amabilmente fino a tarda sera, sorseggiando un <a href="http://www.ilpirlo.com/i-locali-recensiti/">pirlo</a> o bevendo birra.</p>
   			<p>Niente di commerciale o promozionale, solo degli incontri organizzati mettendo assieme quel po' di tempo, passione e volontà che riusciamo a dedicare a questo progetto strappandolo al nostro lavoro quotidiano. Dalla community <strong>per la community</strong>, tutto qua.</p>
       </div>
+    </header>
+      
+      <span id="myTimer">Interval Stopped</span>
+    <br><br><br>
+    <input type="button" value="Start" onclick="start_Int()" /  >
+    <input type="button" value="Stop" onclick="stop_Int()" />
+    <aside>
+<h3>My Tweets</h3>
+</aside>
+    <a href="prev" id="prev">prev</a>
+    <a href="prev" id="next">next</a>
+    <div id="event_block" class="wrapper data">
+      <ul id="event_list">
+        <li id="event1">Evento 1</li>
+        <li id="event2">Evento 2</li>
+        <li id="event3" class="centerEvent">Evento 3</li>
+        <li id="event4">Evento 4</li>
+        <li id="event5">Evento 5</li>
+
+      </ul>
+    </div>
+    
+    <!-- [WHO] -->
+    <section id="who" class="fixed whited spaced">
+     
     </section>
     
     <!-- [EVENTS] -->
@@ -38,7 +59,7 @@
         <h1 lang="en">events</h1>
       </div>
       <div class="content">
-        <div class="wrapper data"></div>
+        
       </div>
     </section>
         
@@ -94,10 +115,12 @@
     <!-- [FILE JS] -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/start.js"></script>
+    <script type="text/javascript" src="js/test.js"></script>
     <script type="text/javascript" charset="utf-8">
     $(document).ready(function() {
       $('.event:first').addClass('bold');
     });
     </script>
+    </div>
   </body>
 </html>

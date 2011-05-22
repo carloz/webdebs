@@ -3,6 +3,10 @@
 @import url(http://fonts.googleapis.com/css?family=Cabin+Sketch:bold);
 @import url(http://fonts.googleapis.com/css?family=Special+Elite);
 
+* {
+  margin: 0;
+  padding: 0;
+}
 /* [] */
 body { background:#eee; margin:0; font-size:1em; }
 
@@ -19,7 +23,7 @@ article { color:#444; font-size:.9em; }
 /*#getintouch { }*/
 /*  #getintouch a { border-radius:.5em; background:#444; padding:.5em 2em; margin:0 .5em; color:#fff; text-decoration:none; }*/
 
-.fixed { width:900px; margin:0 auto; padding:2em; }
+.fixed { width:900px; margin:0 auto; }
 .whited { background:#fff; }
 .spaced { margin-top:1em; }
 .centered { text-align:center; }
@@ -38,3 +42,72 @@ article { color:#444; font-size:.9em; }
 
 .event { }
 .meeting p { padding:0 .5em; }
+
+#prev, #next {
+  display: block;
+  width: 40px;
+  border: 2px solid #f00;
+  height: 300px;
+}
+
+#prev{
+  float: left;
+}
+
+#next {
+  float: right;
+}
+
+
+#content{
+  margin: 0 auto;
+  width:910px;
+  
+}
+#event_block{
+  
+  width: 820px;
+  overflow: hidden;
+  position: relative;
+  
+}
+
+#event_block, #event_block ul, #event_block li { height: 300px; }
+
+#event_block ul{
+  width: 3000px;
+  position: absolute;
+  top: 0;
+  left: -1151.5px;
+}
+
+#event_block li {
+  position: relative; 
+  width: 280px;
+  float: left;
+  list-style: none;
+}
+#event1{
+  width: 600px;
+  background-color: #444;
+}
+
+#event2{
+  width: 350px;
+  background-color: #f00;
+}
+
+#event3{
+  width: 450px;
+  background-color: #ff0;
+}
+
+#event4{
+  width: 200px;
+  background-color: #f0f;
+}
+
+#event5{
+  width: 350px;
+  background-color: #00f;
+}
