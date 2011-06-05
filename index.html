@@ -9,48 +9,52 @@
   	
     <!-- [CSS] -->
     <link rel="stylesheet" href="css/master.css" type="text/css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="css/colorbox.css" type="text/css" media="screen" charset="utf-8">
     
     <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
   </head>
   
   <body>
-    <div id="content">
-    <header class="fixed whited centered">
-       <img src="images/follow_us.png" border="0" class="right" />
-      <div class="title">
-        <h1 lang="it">chi siamo</h1>
-        <h1 lang="en">who we are</h1>
-      </div>
-      <div class="content">
-        <p>Un gruppo di persone accomunate dal fatto di nutrire una forte passione per tutto quello che ruota attorno al web (ma non solo) e dall'essere bresciani (<span id="#christmasegg1" title="alcuni si spingono a dire che “essere bresciani è una condizione dell'anima e non anagrafica...”">ma non solo</span>). Ci troviamo periodicamente per <strong>parlare di software</strong> e del suo sviluppo, di framework e <strong>linguaggi di programmazione</strong>, di tecnologie web/mobile e client/server, di comunicazione sui social media: insomma i soliti argomenti da geek (ma non solo di quelli). A volte ci troviamo tutti assieme dietro un proiettore, su cui qualcuno a turno presenta delle slide, altre volte in un locale a chiacchierare amabilmente fino a tarda sera, sorseggiando un <a href="http://www.ilpirlo.com/i-locali-recensiti/">pirlo</a> o bevendo birra.</p>
-  			<p>Niente di commerciale o promozionale, solo degli incontri organizzati mettendo assieme quel po' di tempo, passione e volontà che riusciamo a dedicare a questo progetto strappandolo al nostro lavoro quotidiano. Dalla community <strong>per la community</strong>, tutto qua.</p>
-      </div>
-    </header>
-      
-      <span id="myTimer">Interval Stopped</span>
-    <br><br><br>
-    <input type="button" value="Start" onclick="start_Int()" /  >
-    <input type="button" value="Stop" onclick="stop_Int()" />
-    <aside>
-<h3>My Tweets</h3>
-</aside>
-    <a href="prev" id="prev">prev</a>
-    <a href="prev" id="next">next</a>
-    <div id="event_block" class="wrapper data">
-      <ul id="event_list">
-        <li id="event1">Evento 1</li>
-        <li id="event2">Evento 2</li>
-        <li id="event3" class="centerEvent">Evento 3</li>
-        <li id="event4">Evento 4</li>
-        <li id="event5">Evento 5</li>
-
-      </ul>
-    </div>
-    
-    <!-- [WHO] -->
-    <section id="who" class="fixed whited spaced">
      
-    </section>
+    <div id="content">
+     
+    <header class="fixed whited ">
+       <!-- [WHO] -->
+      <section id="who" class="fixed whited spaced">
+        <div class="title" style="float:right; width: 450px;">
+          <h1 lang="it">chi siamo</h1>
+          <h1 lang="en">who we are</h1>
+
+          <p>Un gruppo di persone accomunate dal fatto di nutrire una forte passione per tutto quello che ruota attorno al web (ma non solo) e dall'essere bresciani (<span id="#christmasegg1" title="alcuni si spingono a dire che “essere bresciani è una condizione dell'anima e non anagrafica...”">ma non solo</span>). Ci troviamo periodicamente per <strong>parlare di software</strong> e del suo sviluppo, di framework e <strong>linguaggi di programmazione</strong>, di tecnologie web/mobile e client/server, di comunicazione sui social media: insomma i soliti argomenti da geek (ma non solo di quelli). A volte ci troviamo tutti assieme dietro un proiettore, su cui qualcuno a turno presenta delle slide, altre volte in un locale a chiacchierare amabilmente fino a tarda sera, sorseggiando un <a href="http://www.ilpirlo.com/i-locali-recensiti/">pirlo</a> o bevendo birra.</p>
+          <p>Niente di commerciale o promozionale, solo degli incontri organizzati mettendo assieme quel po' di tempo, passione e volontà che riusciamo a dedicare a questo progetto strappandolo al nostro lavoro quotidiano. Dalla community <strong>per la community</strong>, tutto qua.</p>
+          
+          
+          <!-- GET IN TOUCH -->
+          <span class="contact_us">
+              <a href="mailto:info@webdebs.org"><img alt="Contatc Us" src="images/contact_us.png"></a>
+          </span>
+          
+          <span class="follow">
+              <img alt="Follow us" src="images/follow_text.png">
+              <a href="http://twitter.com/#!/webdebresa" title="Follow us on Twitter"><img alt="Follow us on Twitter" src="images/follow_twitter.png"></a>
+              <a href="http://www.facebook.com/pages/webdebs" title="Follow us on Facebook" ><img alt="Follow us on Facebook" src="images/follow_facebook.png"></a>
+              <a class='calendar' 
+                 title="Calendario incontri e eventi, scaricalo in formato <a href='http://www.google.com/calendar/ical/webdebs.org_m856r7mlfef9232ncjlk859mv4%40group.calendar.google.com/public/basic.ics'>
+                 <img src='images/ical.gif' /></a>"
+                 
+                 href="http://www.google.com/calendar/embed?src=webdebs.org_m856r7mlfef9232ncjlk859mv4%40group.calendar.google.com&ctz=Europe/Rome">
+                 <img alt="calendario incontri e eventi" src="images/google_calendar_logo.png"></a>
+              <a href="http://groups.google.com/group/webdebs" target="_blank" title="Google Groups"><img alt="Google Groups" src="images/google_groups.png"></a>
+              <a href="feed.xml"><img alt="Latest News" src="images/feedrss_logo.png"></a>
+          </span>
+          
+        </div>
+      </section>
+     <img src="images/logo_webdebs_etichetta.png" width="400"/>
+     </aside> 
+     <p> News: Prossimo appuntamento martedi bla bla bla bla bla bla bal bla bla bla bla bla bla bal bla bla bla bla bla bla bal bla bla bla bla bla bla bal bla bla bla bla bla bla bal bla bla bla bla bla bla bal</p>
+    </header>
+    
     
     <!-- [EVENTS] -->
     <section id="events" class="fixed whited spaced">
@@ -58,9 +62,54 @@
         <h1 lang="it">eventi</h1>
         <h1 lang="en">events</h1>
       </div>
-      <div class="content">
+      <a href="prev" id="prev_event"><</a>
+      <a href="prev" id="next_event">></a>
+      <div id="event_block" class="wrapper data">
+      <ul id="event_list">
+        <li id="event1">Evento 1</li>
         
-      </div>
+        <li id="nosqlday11_event">
+          <div class="event_container" id="nosqlday11_event_container">
+           <img src="events/nosqlday11.png" />
+           <a href="http://nosqlday.it/">www</a>
+           <a href="http://twitter.com/#!/nosqlday">twitter</a>
+           <p>25/04/2011</p>
+          </div>
+        </li>
+        
+        <li  class="centered_event">
+          <div class="event_container" id="pwes_event_container">
+           <img src="events/pwes.png" />
+           <a href="http://panewebesalame.com/" target="_blank">www</a>
+           <a href="http://twitter.com/#!/pane_web_salame" target="_blank">twitter</a>
+           <a href="http://www.facebook.com/PaneWebeSalame" target="_blank">facebook</a>
+           <p>23/06/2011</p>
+          </div>
+        </li>
+        
+        <li id="nodejs11_event">
+          <div class="event_container" id="nodejs11_event_container">
+           <img src="events/nodejsconf11.png" />
+           <a href="http://nodejsconf.it/" target="_blank">www</a>
+           <a href="http://twitter.com/#!/nodejsconfit" target="_blank">twitter</a>
+           <p>24/09/2011</p>
+          </div>
+        </li>
+        
+        <li id="forrealconf11_event">
+          <div class="event_container" id="forrealconf11_event_container">
+           <img src="events/forrealconf11.png" />
+           <a href="http://www.for-real-conf.it/" target="_blank">www</a>
+          </div>
+        </li>
+        
+        <li id="agiletour11_event">
+          <div class="event_container" id="agiletour11_event_container">
+           AGILE TOUR 2011 - ottobre 2011
+          </div>
+        </li>
+      </ul>
+    </div>
     </section>
         
     <!-- [MEETINGS] -->
@@ -78,7 +127,10 @@
               <h2>DOVE</h2>
             </header>
             <article>
-              Parco dell’Acqua
+              Di solito ci troviamo al 
+              <a class='map' href="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=Largo+Torrelunga,+Brescia,+Italia&aq=0&sll=45.528659,10.223851&sspn=0.013815,0.027401&ie=UTF8&hq=&hnear=Largo+Torrelunga,+25121+Brescia,+Lombardia,+Italy&z=17"> 
+                Parco dell’Acqua(mappa)</a>.<br />
+              Variazioni sul luogo vengono comunicate
             </article>
           </div>
           <div class="trentatre">
@@ -87,8 +139,10 @@
               <h2>QUANDO</h2>
             </header>
             <article>
-              Il primo venerdì di ogni mese.<br />
-              Dalle 19e30
+              Sicuramente il primo venerdì di ogni mese dalle 19e30<br />
+              Possono comunque capitare anche altri incontri oltre a quelli prestabiliti, 
+              basta avere un'idea da proporre!
+             
             </article>
           </div>
           <div class="trentatre">
@@ -97,11 +151,28 @@
               <h2>COME</h2>
             </header>
             <article>
-              Pirlo, pizza, birra, presentazioni, due ciacole e confronto
+              Sorseggiando del buon pirlo, birra, presentazioni, due ciacole e confronto
             </article>
           </div>
         </div>
       </div>
+       <a href="" id="prev_meeting"><</a>
+      <a href="" id="next_meeting">></a>
+      <div id="meeting_block" class="wrapper data">
+      <ul id="meeting_list">
+        <li id="meeting1">Meeting 1</li>
+        <li id="meeting2">Meeting 2</li>
+        <li id="meeting3" class="centered_meeting">
+        
+        
+        
+        </li>
+        <li id="meeting4">Meeting 4</li>
+        <li id="meeting5">Meeting 5</li>
+
+      </ul>
+    </div>
+      
       
       <div class="content grid">
         <div class="wrapper data"></div>
@@ -109,11 +180,11 @@
     </section>
         
     <footer class="fixed spaced centered">
-      <img src="images/logo-webdebs-etichetta.png" border="0" id="label"/>
     </footer>
     
     <!-- [FILE JS] -->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.colorbox-min.js"></script>
     <script type="text/javascript" src="js/start.js"></script>
     <script type="text/javascript" src="js/test.js"></script>
     <script type="text/javascript" charset="utf-8">

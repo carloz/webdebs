@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>WebDeBs News e Eventi</title>
+        <description>WebDeBs News e Eventi relativi all'attività di WebDeBs</description>
+        <link>http://www.webdebs.org</link>
+        <language>it</language>
+        <lastBuildDate>Wed, 05 Jun 2011 15:46:17 +0100</lastBuildDate>
+        <pubDate>Fri, 05 Jun 2011 09:00:00 +0100</pubDate>
+        <webMaster>info@webdebs.org</webMaster>
+        <image>
+            <url>http://www.webdebs.org/images/logo_webdebs_etichetta.png</url>
+            <title>WebDeBs News e Eventi</title>
+            <link>http://www.webdebs.org</link>
+            <description>WebDeBs News e Eventi relativi all'attività di WebDeBs</description>
+            <width>134</width>
+            <height>138</height>
+        </image>
+        <item>
+            <title>News e Eventi relativi all'attività di WebDeBs</title>
+            <description>
+            
+            NotePage, Inc. has released WebGate version 3.6, an easy-to-use Windows paging program that lets your PC communicate with alphanumeric and numeric pagers, PCS and digital phones, PCMCIA pager cards, billboards, and other wireless messaging devices. Using the simplest web page and e-mail technology, WebGate makes it easy to communicate with your employees and colleagues on their pagers and other wireless devices.</description>
+            <link>http://www.notepage.net/presswebgate.htm</link>
+        </item>
+    </channel>
+</rss>

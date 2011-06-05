@@ -10,7 +10,11 @@
 /* [] */
 body { background:#eee; margin:0; font-size:1em; }
 
-h1 { font-family: 'Cabin Sketch', arial, serif; font-size:3.5em; color:#666; margin-top:0; }
+header { 
+  font-size: 1em;
+}
+
+h1 { font-family: 'Cabin Sketch', arial, serif; font-size:1.5em; color:#666; margin-top:0; }
 h2 { font-family: 'Special Elite', arial, serif; font-size:1.4em; margin:0; }
 *[lang=en] { display:none; }
 
@@ -43,18 +47,26 @@ article { color:#444; font-size:.9em; }
 .event { }
 .meeting p { padding:0 .5em; }
 
-#prev, #next {
-  display: block;
-  width: 40px;
-  border: 2px solid #f00;
-  height: 300px;
+#content {
+  padding-top: 20px;
 }
 
-#prev{
+
+#prev_event, #next_event, #prev_meeting, #next_meeting {
+  display: block;
+  width: 31px;
+  border: 2px solid #ccc;
+  height: 220px;
+  text-decoration: none;
+  color: #ccc;
+}
+
+
+#prev_event, #prev_meeting{
   float: left;
 }
 
-#next {
+#next_event, #next_meeting {
   float: right;
 }
 
@@ -64,50 +76,48 @@ article { color:#444; font-size:.9em; }
   width:910px;
   
 }
-#event_block{
+#event_block, #meeting_block{
   
-  width: 820px;
+  width: 830px;
   overflow: hidden;
   position: relative;
   
 }
 
-#event_block, #event_block ul, #event_block li { height: 300px; }
+#event_block, #event_block ul,  #meeting_block, #meeting_block ul { height: 280px; }
 
-#event_block ul{
-  width: 3000px;
+
+#event_block li, #meeting_block li { height: 250px; }
+
+#event_block ul, #meeting_block ul{
+  width: 6000px;
   position: absolute;
   top: 0;
-  left: -1151.5px;
+  left: 0;
 }
 
-#event_block li {
+#event_block li, #meeting_block li {
   position: relative; 
-  width: 280px;
   float: left;
   list-style: none;
-}
-#event1{
-  width: 600px;
-  background-color: #444;
-}
-
-#event2{
-  width: 350px;
-  background-color: #f00;
+  width: 470px;
+  border: 2px solid #ccc;
+  margin: 0 2px;
 }
 
-#event3{
+#meeting_block li {
+  width: 470px;
+}
+
+
+#pwes_event{
   width: 450px;
-  background-color: #ff0;
 }
 
-#event4{
-  width: 200px;
-  background-color: #f0f;
+#pwes_event_container {
+  
 }
 
-#event5{
-  width: 350px;
-  background-color: #00f;
+.event_container{
+  padding: 10px;
 }
